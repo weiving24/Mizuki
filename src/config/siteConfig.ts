@@ -4,10 +4,10 @@ import type { SiteConfig } from "../types/config";
 const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
-	title: "Starsh日常",
-	subtitle: "One demo website",
+	title: "MonStarsh",
+	subtitle: "我也不知道填啥，额呃呃呃",
 	siteURL: "https://leekingx.cn/", // 请替换为你的站点URL，以斜杠结尾
-	siteStartDate: "2026-07-31", // 站点开始运行日期，用于站点统计组件计算运行天数
+	siteStartDate: "2026-07-30", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	lang: SITE_LANG,
 
@@ -53,7 +53,7 @@ export const siteConfig: SiteConfig = {
 	},
 
 	bilibili: {
-		vmid: "your-bilibili-vmid", // 在此处设置你的Bilibili用户ID (uid)，例如 "1129280784"
+		vmid: "3546918114298700", // 在此处设置你的Bilibili用户ID (uid)，例如 "1129280784"
 		fetchOnDev: false, // 是否在开发环境下获取 Bilibili 数据（默认 false）
 		coverMirror: "", // 封面图片镜像源（可选，如果需要使用镜像源，例如 "https://images.weserv.nl/?url="）
 		useWebp: true, // 是否使用WebP格式（默认 true）
@@ -148,7 +148,7 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true,
-			title: "StarshBlog",
+			title: "MonStarsh",
 			switchable: true,
 
 			subtitle: [
