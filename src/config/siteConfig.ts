@@ -1,13 +1,13 @@
 import type { SiteConfig } from "../types/config";
 
 // 定义站点语言
-const SITE_LANG = "en"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
+const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
-	title: "Mizuki",
+	title: "Starsh日常",
 	subtitle: "One demo website",
-	siteURL: "https://mizuki.mysqil.com/", // 请替换为你的站点URL，以斜杠结尾
-	siteStartDate: "2025-01-01", // 站点开始运行日期，用于站点统计组件计算运行天数
+	siteURL: "https://starsh.bbroot.com/", // 请替换为你的站点URL，以斜杠结尾
+	siteStartDate: "2026-07-31", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	lang: SITE_LANG,
 
@@ -34,7 +34,7 @@ export const siteConfig: SiteConfig = {
 		// 显示模式："text-icon" 显示图标+文本，"logo" 仅显示Logo
 		mode: "text-icon",
 		// 顶栏标题文本
-		text: "MizukiUI",
+		text: "StarshBlog",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.webp
 		icon: "assets/home/home.webp",
 		// 网站Logo图片路径
@@ -109,16 +109,16 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"/assets/desktop-banner/1.webp",
-				"/assets/desktop-banner/2.webp",
-				"/assets/desktop-banner/3.webp",
-				"/assets/desktop-banner/4.webp",
+				"/assets/mobile-banner/zjx.webp",
+//				"/assets/desktop-banner/2.webp",
+//				"/assets/desktop-banner/3.webp",
+//				"/assets/desktop-banner/4.webp",
 			], // 桌面横幅图片
 			mobile: [
-				"/assets/mobile-banner/1.webp",
-				"/assets/mobile-banner/2.webp",
-				"/assets/mobile-banner/3.webp",
-				"/assets/mobile-banner/4.webp",
+				"/assets/mobile-banner/zjx.webp",
+//				"/assets/mobile-banner/2.webp",
+//				"/assets/mobile-banner/3.webp",
+//				"/assets/mobile-banner/4.webp",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -148,7 +148,7 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true,
-			title: "わたしの部屋",
+			title: "StarshBlog",
 			switchable: true,
 
 			subtitle: [

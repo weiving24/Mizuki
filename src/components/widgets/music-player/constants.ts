@@ -4,7 +4,7 @@ export const STORAGE_KEY_VOLUME = "music-player-volume";
 
 export const DEFAULT_VOLUME = 0.7;
 
-export const LOCAL_PLAYLIST: Song[] = [
+/*export const LOCAL_PLAYLIST: Song[] = [
 	{
 		id: 1,
 		title: "口笛で愛は歌えない",
@@ -37,6 +37,18 @@ export const LOCAL_PLAYLIST: Song[] = [
 		url: "assets/music/url/cl.mp3",
 		duration: 200,
 	},
+];*/
+
+export const LOCAL_PLAYLIST: Song[] = [
+  {
+    id: 1,
+    title: "神のまにま",
+    artist: "天馬司&鳳えむ&草薙寧々&神代類&初音ミ",
+    cover: "/assets/music/cover/神的随波逐流.jpg",
+    url: "assets/music/url/神的随波逐流.mp3",
+    duration: 0,
+  },
+  // 可以继续添加
 ];
 
 export const DEFAULT_SONG: Song = {
