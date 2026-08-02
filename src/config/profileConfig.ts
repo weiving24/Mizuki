@@ -3,7 +3,7 @@ import type { ProfileConfig } from "../types/config";
 // 个人资料配置
 export const profileConfig: ProfileConfig = {
 	avatar: "/assets/mobile-banner/zjx.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "赵进轩",
+	name: "Shirakawa Ritsu",
 	bio: "“孤独是心灵的画布，月光是他最温柔的笔触.”",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
@@ -13,7 +13,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Bilibili",
 			icon: "fa7-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
+			url: "https://space.bilibili.com/3546918114298700",
 		},
 		{
 			name: "Gitee",
@@ -23,7 +23,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
+			url: "https://github.com/weiving24",
 		},
 		{
 			name: "Codeberg",
