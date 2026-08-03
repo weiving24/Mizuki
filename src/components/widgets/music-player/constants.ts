@@ -43,7 +43,7 @@ export const LOCAL_PLAYLIST: Song[] = [
   {
     id: 1,
     title: "神のまにま",
-    artist: "天馬司&鳳えむ&草薙寧々&神代類&初音ミ",
+    artist: "初音ミク/GUMI/鏡音リン",
     cover: "/assets/music/cover/神的随波逐流.jpg",
     url: "assets/music/url/神的随波逐流.mp3",
     duration: 0,
