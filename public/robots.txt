@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://leekingx.cn/sitemap.xml
