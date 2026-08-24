@@ -5,7 +5,7 @@ const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
 	title: "MonStarsh",
-	subtitle: "我也不知道填啥，额呃呃呃",
+	subtitle: "「苦尽甘来终有时，一路向阳待花开」",
 	siteURL: "https://leekingx.cn/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2026-07-30", // 站点开始运行日期，用于站点统计组件计算运行天数
 
