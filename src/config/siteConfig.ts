@@ -4,7 +4,7 @@ import type { SiteConfig } from "../types/config";
 const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
-	title: "「苦尽甘来终有时，一路向阳待花开",
+	title: "「苦尽甘来终有时，一路向阳待花开」",
 //	subtitle: "「苦尽甘来终有时，一路向阳待花开」",
 	siteURL: "https://leekingx.cn/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2026-07-30", // 站点开始运行日期，用于站点统计组件计算运行天数
@@ -109,15 +109,15 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"/assets/desktop-banner/cwkj.webp",
-				"/assets/desktop-banner/jykw.webp",
-				"/assets/desktop-banner/xtg.webp",
+				"assets/desktop-banner/cwkj.webp",
+				"assets/desktop-banner/jykw.webp",
+				"assets/desktop-banner/xtg.webp",
 //				"/assets/desktop-banner/4.webp",
 			], // 桌面横幅图片
 			mobile: [
-				"/assets/mobile-banner/cwkj.webp",
-				"/assets/mobile-banner/jykw.webp",
-				"/assets/mobile-banner/xtg.webp",
+				"assets/desktop-banner/cwkj.webp",
+				"assets/desktop-banner/jykw.webp",
+				"assets/desktop-banner/xtg.webp",
 //				"/assets/mobile-banner/4.webp",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
